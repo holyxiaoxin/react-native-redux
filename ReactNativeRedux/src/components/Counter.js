@@ -28,6 +28,8 @@ export default class Counter extends Component {
 
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>This is an awesome counter app!</Text>
+        <Text>Which works great on both android and ios!</Text>
         <Text>{counter}</Text>
         <TouchableOpacity onPress={increment} style={styles.button}>
           <Text>up</Text>
