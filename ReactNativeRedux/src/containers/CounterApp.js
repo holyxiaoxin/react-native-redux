@@ -15,7 +15,7 @@ class CounterApp extends Component {
     const { state, actions } = this.props;
     return (
       <Counter
-        counter={state.count}
+        counter={state.get('count')}
         {...actions} />
     );
   }
